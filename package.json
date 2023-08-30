@@ -7,7 +7,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:href": "ng build --base-href ./",
+		"delete:docs": "del docs",
+		"copy:dist": "copyfiles dist/angular-school-c6/* ./docs -f",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
   },
   "private": true,
   "dependencies": {
