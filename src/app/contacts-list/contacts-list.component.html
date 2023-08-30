@@ -6,8 +6,8 @@
             [routerLink]="['/contact-detail', contact.id]">
             </app-contact>
             <div class="actions">
-                <div class="edit action" [routerLink]="['/contact-detail/edit/', contact.id]"></div>
-                <div class="delete action" (click)="deleteContact(contact)"></div>
+                <div class=" action clickable" [routerLink]="['/contact-detail/edit/', contact.id]">Edit</div>
+                <div class=" action clickable" (click)="deleteContact(contact)">Delete</div>
             </div>
         </div>
     </div>

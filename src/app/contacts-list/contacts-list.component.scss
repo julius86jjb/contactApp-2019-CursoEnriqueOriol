@@ -32,11 +32,13 @@
         background-size: 28px !important;
     }
 }
-
-.edit{
-    background-image: url('/assets/pen.svg');
+.clickable{
+  cursor:pointer;
 }
+// .edit{
+//     background-image: url('assets/pen.svg');
+// }
 
-.delete{
-    background-image: url('/assets/garbage.svg');
-}
+// .delete{
+//     background-image: url('assets/garbage.svg');
+// }

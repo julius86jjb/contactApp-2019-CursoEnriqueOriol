@@ -1,5 +1,5 @@
 {
-  "name": "angular-school-c6",
+  "name": "contact-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,8 +10,8 @@
     "e2e": "ng e2e",
     "build:href": "ng build --base-href ./",
 		"delete:docs": "del docs",
-		"copy:dist": "copyfiles dist/angular-school-c6/* ./docs -f",
-    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
+		"copy:dist": "copyfiles dist/contact-app/* ./docs -f",
+    "build:github": "npm run delete:docs && npm run build:href"
   },
   "private": true,
   "dependencies": {
